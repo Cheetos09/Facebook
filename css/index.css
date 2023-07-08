@@ -1,0 +1,119 @@
+body{
+margin: 0;
+
+
+}
+
+.facebook{
+	padding-top: 35px;
+}
+.bodysesion{
+	background-color: #F1F1F6 ;
+    width: 100%;
+}
+
+.box{
+border: 3px solid;
+border-radius: 3%;
+border-color: #EFEFEF ;
+margin: auto;
+padding-top: 25px;
+width: 395px;
+height: 300px;
+background-color: #FFFF;
+}
+
+input{
+	border: 1px solid;
+	border-radius: 3% / 15%;
+	border-color: #DFDFDF;
+	margin-bottom: -5px;
+	font-size: 16px;
+	padding-left: 20px;
+	height: 50px;
+	width: 340px;
+}
+
+.sesion input{
+	border: 0;
+	background-color: #0E78FF ;
+	border-color: #0E78FF;
+	color: #FFFF;
+	border-radius: 3% / 15%;
+	font-size: 20px;
+	height: 50px;
+	width: 360px;
+}
+
+.sesion input .is:hover{
+    background-color: #315EF9 ;
+}
+
+.newcount button{
+	border: 0;
+	background-color: #38E505;
+	border-color: #38E505;
+	border-radius: 3% / 15%;
+	font-size: 20px;
+	height: 50px;
+	width: 270px;
+}
+
+.newcount button:hover{
+	background-color: #34D804;
+}
+
+.languajes{
+	display: inline-flex;
+	align-content: center;
+	padding-top: 150px;
+	color: #458CFF;
+}
+.right{
+	padding-left: 100px;
+}
+a{
+	color:#8299A7;
+	text-decoration: none;
+}
+
+.resolution{
+	width: 100%;
+}
+
+/**Movil**/
+@media (max-width: 767px){
+	.Desktop{
+		display: none;
+	}
+
+	.Tablet{
+		display: none;
+	}
+
+}
+
+/**Tablet**/
+@media (min-width: 768px) and (max-width: 990px) {
+	.Desktop{
+		display: none;
+	}
+
+	.Movil{
+		display: none;
+	}
+	
+}
+
+/**Desktop**/
+@media (min-width: 991px){
+
+	.Movil{
+		display: none;
+	}
+
+	.Tablet{
+		display: none;
+	}
+	
+}
